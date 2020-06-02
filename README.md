@@ -7,5 +7,6 @@ This Repositiry consist from 2 main part, Heart beat anomalies detection(Arrhyth
 We propose    a    new    unsupervised    and    non-parametric  method  to  detect  change  points  in electrocardiography.  The detection relies on  optimal  transport  theory  combined  with  topological analysis and the bootstrap procedure.  The algorithm is designed to detect changes in virtually any harmonic or a partially harmonic signal and is verified on ECG data streams.  We successfully find abnormal or irregular cardiac cycles in the waveforms for the six of the most frequent types of clinical arrhythmias using a single algorithm. Our unsupervised approach reaches the level of performance of the supervised state-of-the-art techniques.  We provide conceptual justification for  the efficiency of the method.
 
 
-![alt text](https://https://github.com/[Niko-shvets]/[Unsupervised-heart-beat-anomalies-detection]/blob/master/Fig1-pipeline.pdf)
+![alt text](https://https://github.com/Niko-shvets/Unsupervised-heart-beat-anomalies-detection/blob/master/Fig1-pipeline.pdf?raw=true)
+
 
