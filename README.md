@@ -16,6 +16,9 @@ POT(conda install -c conda-forge pot)
 
 
 ## Usage
+Example of usage describes in Example Bootstrap Algorithm.ipynb. As a result we have points which corresponds to Wasserstein distances inside each point cloud. Each point has corresponded indexes, then it is possible to find are with arrhythmia in original time series.
+
+![Screenshot](bootstrao_line.PNG)
 
 
 
