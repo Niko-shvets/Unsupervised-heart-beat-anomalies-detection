@@ -22,5 +22,27 @@ Example of usage describes in Example Bootstrap Algorithm.ipynb. As a result we 
 
 ## Multi labels classification
 
+Algorithm based on multi labels multi dimensional classification. Algorithm has the following pipeline:
+![Screenshot](pipe_2.PNG)
+Encoder located in folder model, weights for ECG located in model/weights_original and model/weights_clusters. Clustering algothm based on Infomap algorithm.
+
+## Requirements
+Pytorch
+Infomap
+POT
+
+## Training
+Training Encoders, clustering you can find in the following files:clustering.ipynb,Encoder training.ipynb,Encoder cluster separation.ipynb.
+
+Encoder in input takes n-dim point clouds and return stack of corresponded latent vectors.
+If you want reproduce results please download the following stack of point clouds corresponded to some ECG data from mitbih dataset. The same data you need to use for clustering algorithm for result reproducing.
+
+## Usage
+Example of multi labels classification algorithm in Multiclass algorithm is shown.
+
+![Screenshot](multi.PNG)
+
+
+The final pipeline
 
 
