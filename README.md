@@ -28,7 +28,9 @@ Encoder located in folder model, weights for ECG located in model/weights_origin
 
 ## Requirements
 Pytorch
+
 Infomap
+
 POT
 
 ## Training
@@ -53,8 +55,11 @@ If you want to represent results, please download the following data https://www
 
 ## Requirements
 Pytorch
+
 biosppy
+
 heartpy
+
 scipy
 
 ## training
