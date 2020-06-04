@@ -36,13 +36,34 @@ Training Encoders, clustering you can find in the following files:clustering.ipy
 
 Encoder in input takes n-dim point clouds and return stack of corresponded latent vectors.
 If you want reproduce results please download the following stack of point clouds corresponded to some ECG data from mitbih dataset. The same data you need to use for clustering algorithm for result reproducing.
+Plese notice, that if you want reproduce results, please download the following data https://www.dropbox.com/sh/pqy946oqpkdfr2c/AADA0weiR87hMymiMMuYd8HRa?dl=0 .
+
+curves_2_wind_100.pkl is point clouds and you need locate it to data folder, i.e. data/curves_2_wind_100.pkl
+distances_total_new_norm_.pkl is distances between latent vectors corresponds to point clouds. you need locate it to clustering_data, i.e. clustering_data/distances_total_new_norm_.pkl
 
 ## Usage
 Example of multi labels classification algorithm in Multiclass algorithm is shown.
 
 ![Screenshot](multi.PNG)
 
+# 1) Blood Pressure Estimation
 
-The final pipeline
+Project located in folder Blood Pressure, the main idea to present PPG signal via ECG. As a result we can find Pulse Arrival Time. It is useful when PPG signal is noisy or absent. The base model is LSTM with possibility of teacher forcing. We use it as transformer for ECG to PPG, but it is work on any time series data.
+If you want to represent results, please download the following data https://www.kaggle.com/mkachuee/BloodPressureDataset
+
+## Requirements
+Pytorch
+biosppy
+heartpy
+scipy
+
+## training
+Training process in LSTM_train.ipynb is presented.
+
+## Usage, results
+
+In Model folder you can find the main modeules for neural network, in weights folder you can find weights.
+
+![Screenshot](transformed_ECG.JPG)
 
 
